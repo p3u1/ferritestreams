@@ -1,0 +1,23 @@
+name: Emulator BIOS Only
+author: Paul
+version: 1
+minVersion: "0.7"
+about: BIOS files only (PS1, PS2, PSP, Dreamcast, NeoGeo, etc.)
+sources:
+    - name: BIOS Packs
+      website: https://torrentgalaxy.to
+      htmlParser:
+          searchUrl: /torrents.php?search=BIOS+Pack+OR+Firmware+OR+RetroArch+BIOS&sort=seeders
+          rows: div.tgxtablerow
+          title: { query: div.tgxtablecell.clickable-row > a }
+          magnet:
+              query: a[href^="magnet:"]
+              attribute: href
+          sl:
+              seeders: span.badge.badge-success
+actions:
+    - name: Open Magnet
+      requires: [debrid]
+      deeplink:
+          - os: iOS
+            scheme: "{link}"
