@@ -1,305 +1,222 @@
-# Ferrite Meta Streams
+# 🚀 Ferrite Meta Streams
 
-A complete, curated collection of **Ferrite plugins** that replicate the
-behaviour of Torrentio / MediaFusion for media streaming **and** provide a
-fully structured solution for **emulator ROMs and BIOS**.
+A complete, curated collection of Ferrite plugins for high-quality media streaming and structured emulator support.
 
-Designed for:
-- Apple TV 4K
-- Android Boxes
-- Kodi, Plex, Emby etc
-- Real-Debrid
-- Ferrite v0.7+
-- RetroArch, Batocera, EmuDeck, LaunchBox
+Includes:
 
-No content is hosted. All plugins scrape **public sources only**.
+🎬 Movies, TV, Anime streaming plugins  
+🎮 Emulator ROM sets  
+🧠 Emulator BIOS packs  
+⚡ Starter kits for rapid deployment  
+
+This project mirrors the behaviour and philosophy of Torrentio / MediaFusion — implemented correctly for Ferrite.
+
+### 🖥 Designed for:
+• Apple TV 4K  
+• Ferrite v0.7+  
+• Real-Debrid  
+• RetroArch, Batocera, EmuDeck, LaunchBox  
+
+⚠️ No content is hosted. All plugins index public sources only.
 
 ---
 
-## 📦 Repository Structure
+# 📦 Repository Structure
 
-plugins/
-├── movies/
-├── tv/
-├── anime/
-├── hq/
-├── ultimate/
-└── roms/
-├── starter-kits/
-├── bios/
-├── consoles/
-├── arcade/
-├── formats/
-└── meta/
+plugins/  
+├── movies/  
+├── tv/  
+├── anime/  
+├── hq/  
+├── ultimate/  
+└── roms/  
+  ├── starter-kits/  
+  ├── bios/  
+  ├── consoles/  
+  ├── arcade/  
+  ├── formats/  
+  └── meta/  
+
 docs/
 
 ---
 
-## 🎬 MEDIA PLUGINS
+# 🎬 MEDIA PLUGINS
 
-### Movies
-- **Meta Movies** – General public movie trackers
-- **Movies 4K HDR** – 2160p / HDR / REMUX only
-- **Movies Dolby Vision / Atmos** – Keyword-enforced DV & Atmos
+## 🍿 Movies
+✅ Meta Movies — General public trackers for films  
+🌈 Movies 4K HDR — 2160p / HDR / REMUX only  
+✨ Movies Dolby Vision / Atmos — Keyword-enforced DV + Atmos streams  
 
-### TV
-- **Meta TV** – Episodes & seasons
-- **TV Season Packs** – Full-season torrents only (binge-friendly)
+## 📺 TV
+📡 Meta TV — Episodes and seasons  
+📦 TV Season Packs — Full seasons only (ideal for binge viewing)
 
-### Anime
-- **Anime (Nyaa)** – Sub / Dub / Raw, seeder-first
+## 🍥 Anime
+🔥 Anime (Nyaa) — Sub / Dub / Raw with seeder-first prioritisation  
 
-### HQ
-- **Meta HQ Streams** – Seeder-prioritised, high-quality results
-- **Cached-Optimised** – High probability Real-Debrid cached torrents
+## ⭐ HQ
+🏆 Meta HQ Streams — Seeder-prioritised, high-quality results  
+⚡ Cached-Optimised — High probability Real-Debrid cached torrents  
 
-### Ultimate
-- **Ultimate Streams** – One plugin that imports the best of everything
-
----
-
-## 🎮 ROM & BIOS PLUGINS
-
-### Starter Kits
-- **RetroArch Starter Kit**
-  - BIOS
-  - Nintendo (home + handheld)
-  - FBNeo arcade
-- **Full Emulation Starter Kit**
-  - All consoles
-  - All BIOS
-  - CHD disk formats
-
-### BIOS (Split Properly)
-- BIOS (All systems)
-- Sony BIOS (PS1 / PS2 / PSP)
-- Sega BIOS
-- Arcade BIOS
-- Handheld BIOS
-
-### Consoles
-- Nintendo (Home)
-- Nintendo (Handheld)
-- Sony (PlayStation)
-- Sega
-- Microsoft (Xbox)
-
-### Arcade
-- MAME (full sets)
-- FBNeo (RetroArch preferred)
-
-### Formats
-- **CHD Only** – PS1 / PS2 / Saturn / Dreamcast
-- **Cartridge Only** – Classic ROM formats
-
-### Meta
-- **ROMs HQ** – Seeder-first ROM & BIOS packs
+## 💎 Ultimate
+👑 Ultimate Streams — One plugin that imports the strongest sources across all media categories.
 
 ---
 
-## 🔍 Recommended Search Examples
+# 🎮 ROM & BIOS PLUGINS
 
-NES No-Intro
-SNES No-Intro
-GBA No-Intro
-PS1 Redump CHD
-PS2 CHD
-Dreamcast Redump CHD
-FBNeo ROMSET
-RetroArch BIOS Pack
+## ⚡ Starter Kits
 
----
+### 🕹 RetroArch Starter Kit
+• Core BIOS  
+• Nintendo home + handheld systems  
+• FBNeo arcade  
 
-## ⚙️ Recommended Enable Sets
-
-### Apple TV 4K (Streaming)
-Enable:
-- Movies 4K HDR
-- Movies Dolby Vision / Atmos
-- TV Season Packs
-- Anime (Nyaa)
-- Meta HQ or Ultimate Streams
-
-Disable:
-- Mixed low-quality plugins
-
-### RetroArch (Emulation)
-Enable:
-- RetroArch Starter Kit
-- BIOS (All)
-- CHD Only
-- Arcade FBNeo
-
-Disable:
-- “All ROMs” after downloading packs
+👉 Designed for a fast, frustration-free setup.
 
 ---
 
-## 🧠 Design Principles
+### 🌍 Full Emulation Starter Kit
+• All major consoles  
+• Complete BIOS coverage  
+• CHD disk formats  
 
-- Public sources only
-- Seeder-first logic
-- Pack-based (No-Intro / Redump / TOSEC)
-- Minimal duplicates
-- Emulator-correct formats
-- Debrid-friendly
-
-This mirrors how Torrentio works internally, adapted correctly for Ferrite.
+👉 Ideal for Batocera, LaunchBox, or serious archival builds.
 
 ---
 
-## ⚠️ Legal Notice
+## 🧠 BIOS (Properly Split)
 
-This repository does **not** host or distribute content.
-Plugins index public metadata and magnet links only.
+✔️ BIOS (All Systems)  
+🎮 Sony BIOS — PS1 / PS2 / PSP  
+🌀 Sega BIOS  
+🏛 Arcade BIOS  
+📱 Handheld BIOS  
 
-You are responsible for compliance with local laws.
-
----
-
-## 📌 Requirements
-
-- Ferrite v0.7+
-- Debrid account recommended (Real-Debrid)
-- Emulators capable of CHD / No-Intro / Redump sets
+No guessing. No missing firmware errors.
 
 ---
 
-## 🏁 Status
+## 🕹 Consoles
 
-- Stable
-- Actively maintainable
-- Selector changes expected (public sites)
+🍄 Nintendo (Home Consoles)  
+🎒 Nintendo (Handhelds)  
+🔷 Sony PlayStation  
+🌪 Sega  
+❎ Microsoft Xbox  
 
-Pull requests welcome.
-
----
-
-## ⚙️ Recommended Enable Sets
-
-### Apple TV 4K (Streaming)
-Enable:
-- Movies 4K HDR
-- Movies Dolby Vision / Atmos
-- TV Season Packs
-- Anime (Nyaa)
-- Meta HQ or Ultimate Streams
-
-Disable:
-- Mixed low-quality plugins
-
-### RetroArch (Emulation)
-Enable:
-- RetroArch Starter Kit
-- BIOS (All)
-- CHD Only
-- Arcade FBNeo
-
-Disable:
-- “All ROMs” after downloading packs
+Structured around real emulator needs.
 
 ---
 
-## 🧠 Design Principles
+## 🏛 Arcade
 
-- Public sources only
-- Seeder-first logic
-- Pack-based (No-Intro / Redump / TOSEC)
-- Minimal duplicates
-- Emulator-correct formats
-- Debrid-friendly
-
-This mirrors how Torrentio works internally, adapted correctly for Ferrite.
+🕹 MAME — Full ROM sets  
+⚡ FBNeo — Preferred for RetroArch  
 
 ---
 
-## ⚠️ Legal Notice
+## 💿 Formats
 
-This repository does **not** host or distribute content.
-Plugins index public metadata and magnet links only.
+✅ CHD Only — Optimised disk images for:
 
-You are responsible for compliance with local laws.
+• PS1  
+• PS2  
+• Saturn  
+• Dreamcast  
 
----
-
-## 📌 Requirements
-
-- Ferrite v0.7+
-- Debrid account recommended (Real-Debrid)
-- Emulators capable of CHD / No-Intro / Redump sets
+✅ Cartridge Only — Classic ROM formats for older consoles.
 
 ---
 
-## 🏁 Status
+## ⭐ Meta
 
-- Stable
-- Actively maintainable
-- Selector changes expected (public sites)
-
-Pull requests welcome.
+🏆 ROMs HQ — Seeder-first ROM and BIOS packs for fast acquisition.
 
 ---
 
-## ⚙️ Recommended Enable Sets
+# 🔍 Recommended Search Examples
 
-### Apple TV 4K (Streaming)
-Enable:
-- Movies 4K HDR
-- Movies Dolby Vision / Atmos
-- TV Season Packs
-- Anime (Nyaa)
-- Meta HQ or Ultimate Streams
+Use platform names combined with recognised preservation sets:
 
-Disable:
-- Mixed low-quality plugins
+NES No-Intro  
+SNES No-Intro  
+GBA No-Intro  
+PS1 Redump CHD  
+PS2 CHD  
+Dreamcast Redump CHD  
+FBNeo ROMSET  
+RetroArch BIOS Pack  
 
-### RetroArch (Emulation)
-Enable:
-- RetroArch Starter Kit
-- BIOS (All)
-- CHD Only
-- Arcade FBNeo
-
-Disable:
-- “All ROMs” after downloading packs
+👉 Ferrite will prioritise complete packs rather than loose files.
 
 ---
 
-## 🧠 Design Principles
+# ⚙️ Recommended Enable Sets
 
-- Public sources only
-- Seeder-first logic
-- Pack-based (No-Intro / Redump / TOSEC)
-- Minimal duplicates
-- Emulator-correct formats
-- Debrid-friendly
+## 🍎 Apple TV 4K (Streaming)
 
-This mirrors how Torrentio works internally, adapted correctly for Ferrite.
+✅ Enable:
 
----
+• Movies 4K HDR  
+• Movies Dolby Vision / Atmos  
+• TV Season Packs  
+• Anime (Nyaa)  
+• Meta HQ Streams or Ultimate Streams  
 
-## ⚠️ Legal Notice
-
-This repository does **not** host or distribute content.
-Plugins index public metadata and magnet links only.
-
-You are responsible for compliance with local laws.
+🚫 Disable mixed or low-quality plugins to reduce duplicates and improve scrape speed.
 
 ---
 
-## 📌 Requirements
+## 🎮 RetroArch / Emulator Setup
 
-- Ferrite v0.7+
-- Debrid account recommended (Real-Debrid)
-- Emulators capable of CHD / No-Intro / Redump sets
+✅ Enable:
+
+• RetroArch Starter Kit  
+• BIOS (All)  
+• CHD Only  
+• Arcade FBNeo  
+
+🚫 Disable large “All ROMs” plugins once packs are obtained to keep searches fast and organised.
 
 ---
 
-## 🏁 Status
+# 🧠 Design Principles
 
-- Stable
-- Actively maintainable
-- Selector changes expected (public sites)
+✔️ Public sources only  
+✔️ Seeder-first logic  
+✔️ Pack-based structure (No-Intro / Redump / TOSEC)  
+✔️ Emulator-correct formats  
+✔️ Minimal duplication  
+✔️ Debrid-friendly  
 
-Pull requests welcome.
+This architecture reflects how modern aggregation behaves — adapted specifically for Ferrite.
 
+---
+
+# ⚖️ Legal Notice
+
+This repository does not host, store, or distribute any content.
+
+Plugins index publicly available metadata and magnet links.
+
+You are responsible for ensuring compliance with applicable laws in your jurisdiction.
+
+---
+
+# 📌 Requirements
+
+✅ Ferrite v0.7 or newer  
+✅ Debrid account recommended (Real-Debrid strongly advised)  
+✅ Emulators capable of handling No-Intro, Redump, and CHD formats  
+
+---
+
+# 🏁 Status
+
+🟢 Stable  
+🧱 Structured for long-term maintenance  
+🔄 Public tracker selectors may change over time  
+
+Pull requests and improvements are Welcome. 
