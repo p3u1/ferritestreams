@@ -1,0 +1,26 @@
+name: Movies 4K HDR (Public)
+author: Paul
+version: 1
+minVersion: "0.7"
+about: 4K / HDR / REMUX movie torrents only
+sources:
+    - name: 1337x 4K
+      version: 1
+      website: https://1337x.to
+      htmlParser:
+          searchUrl: /search/{query}+2160p+HDR/1/
+          rows: table.table-list > tbody > tr
+          title: { query: td.name > a:nth-child(2) }
+          magnet:
+              query: td.name > a:nth-child(2)
+              attribute: href
+          size: { query: td.size }
+          sl:
+              seeders: td.seeds
+              leechers: td.leeches
+actions:
+    - name: Open Magnet
+      requires: [debrid]
+      deeplink:
+          - os: iOS
+            scheme: "{link}"
