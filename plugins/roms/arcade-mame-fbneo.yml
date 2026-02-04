@@ -1,0 +1,23 @@
+name: Arcade ROMs (MAME & FBNeo)
+author: Paul
+version: 1
+minVersion: "0.7"
+about: Arcade ROM sets and BIOS
+sources:
+    - name: Arcade Packs
+      website: https://torrentgalaxy.to
+      htmlParser:
+          searchUrl: /torrents.php?search=MAME+OR+FBNeo+OR+NeoGeo+ROMSET&sort=seeders
+          rows: div.tgxtablerow
+          title: { query: div.tgxtablecell.clickable-row > a }
+          magnet:
+              query: a[href^="magnet:"]
+              attribute: href
+          sl:
+              seeders: span.badge.badge-success
+actions:
+    - name: Open Magnet
+      requires: [debrid]
+      deeplink:
+          - os: iOS
+            scheme: "{link}"
