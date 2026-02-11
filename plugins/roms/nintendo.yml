@@ -1,24 +1,25 @@
 name: Nintendo ROM Sets
-author: Paul
+author: p3u1
 version: 1
-minVersion: "0.7"
+minVersion: '0.7'
 about: Nintendo ROM sets (No-Intro preferred)
+
 sources:
-    - name: Nintendo Packs
-      website: https://torrentgalaxy.to
-      htmlParser:
-          # Added {query} to enable specific game searches
-          searchUrl: /torrents.php?search={query}+Nintendo+OR+NES+OR+SNES+OR+GBA+OR+N64+OR+GameCube+OR+Wii+OR+Switch+No-Intro&sort=seeders
-          rows: div.tgxtablerow
-          title: { query: div.tgxtablecell.clickable-row > a }
-          magnet:
-              query: a[href^="magnet:"]
-              attribute: href
-          sl:
-              seeders: span.badge.badge-success
+  - name: Nintendo Packs
+    website: https://torrentgalaxy.to
+    htmlParser:
+      searchUrl: /torrents.php?search=Nintendo+OR+NES+OR+SNES+OR+GBA+OR+N64+OR+GameCube+OR+Wii+OR+Switch+No-Intro&sort=seeders
+      rows: div.tgxtablerow
+      title: { query: div.tgxtablecell.clickable-row > a }
+      magnet:
+        query: a[href^="magnet:"]
+        attribute: href
+      sl:
+        seeders: span.badge.badge-success
+
 actions:
-    - name: Open Magnet
-      requires: [debrid]
-      deeplink:
-          - os: iOS
-            scheme: "{link}"
+  - name: Open Magnet
+    requires: [debrid]
+    deeplink:
+      - os: iOS
+        scheme: '{link}'
