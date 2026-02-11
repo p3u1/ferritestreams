@@ -1,8 +1,9 @@
 name: Sony PlayStation ROMs
-author: Paul
+author: p3u1
 version: 1
 minVersion: '0.7'
 about: Sony PlayStation ROMs and BIOS
+
 sources:
   - name: Sony Packs
     website: https://torrentgalaxy.to
@@ -15,6 +16,7 @@ sources:
         attribute: href
       sl:
         seeders: span.badge.badge-success
+
 actions:
   - name: Open Magnet
     requires: [debrid]
