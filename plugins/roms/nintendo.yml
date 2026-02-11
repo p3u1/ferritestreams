@@ -7,7 +7,8 @@ sources:
     - name: Nintendo Packs
       website: https://torrentgalaxy.to
       htmlParser:
-          searchUrl: /torrents.php?search=Nintendo+OR+NES+OR+SNES+OR+GBA+OR+N64+OR+GameCube+OR+Wii+OR+Switch+No-Intro&sort=seeders
+          # Added {query} to enable specific game searches
+          searchUrl: /torrents.php?search={query}+Nintendo+OR+NES+OR+SNES+OR+GBA+OR+N64+OR+GameCube+OR+Wii+OR+Switch+No-Intro&sort=seeders
           rows: div.tgxtablerow
           title: { query: div.tgxtablecell.clickable-row > a }
           magnet:
