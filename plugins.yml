@@ -4,19 +4,19 @@ version: 1
 minVersion: '0.7'
 
 plugins:
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/movies/metamovies.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/movies/movies4khdr.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/movies/moviesdvatmos.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/tv/metatv.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/tv/tvseasonpacks.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/anime/animenyaa.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/hq/metahq.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/hq/metacached.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/roms/biosonly.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/roms/chdonly.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/roms/arcademame.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/roms/nintendo.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/roms/sony.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/roms/sega.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/roms/microsoft.yml
-  - https://raw.githubusercontent.com/p3u1/ferrite-meta-streams/main/roms/emulatorallroms.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/movies/metamovies.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/movies/movies4khdr.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/movies/moviesdvatmos.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/tv/metatv.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/tv/tvseasonpacks.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/anime/animenyaa.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/hq/metahq.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/hq/metacached.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/roms/biosonly.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/roms/chdonly.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/roms/arcademame.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/roms/nintendo.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/roms/sony.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/roms/sega.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/roms/microsoft.yml
+  - https://raw.githubusercontent.com/p3u1/ferritestreams/main/roms/emulatorallroms.yml
